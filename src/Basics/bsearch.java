@@ -33,8 +33,8 @@ public class bsearch {
     }
     public static void main(String[] args) {
 
-        int num = 100;
-        int arr[] = {10,12,35,43,50,100};
+        int num = 569;
+        int arr[] = {10,12,35,43,50,100,500,569};
 
         System.out.println(target(num, arr));
 
