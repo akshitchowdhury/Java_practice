@@ -31,14 +31,16 @@ public class Library {
             System.out.println(books.get(i));
             i++;
         }
-        System.out.println("DO you want to close the program?");
+//        System.out.println("DO you want to close the program?");
+//
+//        String choice = sc.next();
+//
+//        if(choice == "yes"){
+//            sc.close();
+//        }
 
-        String choice = sc.next();
+        boolean test = books.contains("OPM");
 
-        if(choice == "yes"){
-            sc.close();
-        }
-
-
+        System.out.println(test);
     }
 }
